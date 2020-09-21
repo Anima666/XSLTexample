@@ -1,5 +1,4 @@
-﻿using System;
-using System.Xml.Xsl;
+﻿using System.Xml.Xsl;
 
 namespace XSLTexample
 {
@@ -7,7 +6,6 @@ namespace XSLTexample
     {
         static void Main(string[] args)
         {
-
             XslCompiledTransform xslt = new XslCompiledTransform();
             xslt.Load("transform.xsl");
 
